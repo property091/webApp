@@ -5,7 +5,7 @@
 }
 
 body {
-    overflow-y: auto;
+    overflow-y: hidden;
     background-color: rgba(150, 204, 192, 0.822);
 }
 
