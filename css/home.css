@@ -1,0 +1,133 @@
+
+.prewiew {
+    padding-top: 4%;
+
+    width: 100%;
+    height: 7%;
+
+    background-color: transparent;
+
+    text-align: center;
+   
+}
+
+.name {
+    
+
+    background-color: transparent;
+
+    font-size: 5vh;
+    font-family: Bradley Hand, cursive;
+
+
+}
+
+#home {
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: transparent;
+
+    transition-property: all;
+    transition: .7s;
+}
+
+
+.name_icon {
+    margin-top: -5%;
+    margin-left: 30%;
+    
+    width: 15%;
+    height: 100%;
+
+    background: url("../img/name.png") no-repeat;
+
+    -webkit-transform: scale(150%);
+}
+
+.location {
+    
+    width: 100%;
+    height: 20%;
+
+    background-color: transparent;
+
+    position: relative;
+    
+    -webkit-transform: scale(.8);
+
+    font-size: 4vh;
+    font-family: monospace;
+
+    padding: 2px;
+}
+
+.location iframe {
+    margin-left: -5%;
+
+    border-radius: 4px;
+}
+
+
+
+
+
+.icon_home {
+    width: 100%;
+    height: 100%;
+
+    background: url("../img/home.png") no-repeat;
+}
+
+.icon_tarifs {
+    width: 100%;
+    height: 100%;
+
+    background: url("../img/tarifs.png") no-repeat;
+}
+
+
+.icon_add {
+    width: 100%;
+    height: 100%;
+
+    background: url("../img/add.png") no-repeat;
+}
+
+
+.container {
+    position: relative;
+    top: 10px;
+}
+
+.block,
+.block2,
+.block3,
+.block4,
+.block5 {
+    width: 100%;
+    height: 100%;
+
+    background: url(../imgSlider/out.jpg);
+    
+}
+
+.block2 {
+    background: url(../imgSlider/bath.jpg);
+}
+
+.block3 {
+    background: url(../imgSlider/bath2.jpg);
+}
+
+.block4 {
+    background: url(../imgSlider/bath3.jpg);
+}
+
+.block5 {
+    background: url(../imgSlider/cafe.jpg);
+}
+
+
