@@ -85,11 +85,18 @@ function rnd(x) {
 
 
 
-let detect = new MobileDetect(window.navigator.userAgent)
+/* let detect = new MobileDetect(window.navigator.userAgent)
 if(detect.mobile() || detect.phone() || detect.tablet() || detect.os() || detect.is()) {
     console.log('mobile')
 }
 else {
     document.body.innerHTML = "this site only for mobile version";
     console.log("this site only for mobile version");
+} */
+
+if(devices.test(navigator.userAgent)) {
+    console.log('mobile')
+}
+else {
+    document.body.innerHTML = "this site only for mobile version";
 }
