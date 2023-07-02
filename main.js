@@ -86,7 +86,7 @@ function rnd(x) {
 
 
 let detect = new MobileDetect(window.navigator.userAgent)
-if(detect.mobile() || detect.phone() || detect.tablet() || detect.os()) {
+if(detect.mobile() || detect.phone() || detect.tablet() || detect.os() || detect.is()) {
     console.log('mobile')
 }
 else {
